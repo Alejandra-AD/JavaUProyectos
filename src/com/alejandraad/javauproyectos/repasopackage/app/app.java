@@ -12,6 +12,8 @@ public class app {
         System.out.println("******************************************");
         mama.trabajar();
 
+        System.out.println("nombre lanzado con get ----> "+ mama.getNombre());
+
         Persona hijo = new Persona("Juanito","Pérez",15,"estudiante","hijo");
 
         hijo.datosIntegrante();
