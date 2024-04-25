@@ -19,6 +19,7 @@ public class app {
         hijo.datosIntegrante();
         hijo.trabajar();
 
+
         
     }
 }
