@@ -1,6 +1,6 @@
 package com.alejandraad.javauproyectos.repasopackage.modelos;
 
-public class Persona {
+public class Persona implements Jugar{
     private String nombre;
     private String apellido;
     private int edad;
@@ -70,11 +70,17 @@ public class Persona {
         System.out.println(mensaje);
     }
 
+
     public void datosIntegrante(){
         System.out.println("nombre = " + nombre);
         System.out.println("apellido = " + apellido);
         System.out.println("edad = " + edad);
         System.out.println("ocupación = " + ocupacion);
         System.out.println("tipo de integrante = " + tipoDeIntegrante);
+    }
+
+    @Override
+    public void jugar() {
+        System.out.println("jugar desde persona");
     }
 }
