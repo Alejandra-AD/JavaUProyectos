@@ -10,7 +10,7 @@ class Gato extends Mascota { //es una clase default por lo que solo pueden acced
 
     private String maullar() {
         return"😺 <(meow!)";
-    };
+    }
 
 
 }
